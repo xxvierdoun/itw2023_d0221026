@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>latihan 1</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        width: 600px;
+        height: 600px;
+        margin: 500px auto;
+        border: 10px solid black;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 5px;
+
+
+    }
+    .box{
+        width: 150px;
+        height: 150px;
+        background-color: lightblue;
+    }
+    
+</style>
+<body>
+    <div class="container">
+        <div class="box" data-aos="fade-up-right"></div>
+        <div class="box" data-aos="fade-up" data-aos-delay="500"></div>
+        <div class="box" data-aos="fade-up-left"data-aos-delay="1000"></div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .kotak{
+            width: 150px;
+            height: 150px;
+            background-color: #fa8072;
+            margin: 200px auto;
+            /* border-top-left-radius: 50px; */
+            /* border-top-right-radius: 50px; */
+            /* border-radius: 50% 50% 50% 0%; */
+            /* border-bottom-right-radius: 50px; */
+            /*box-shadow: <x-offset> <y-offset> <blur> [size] <color>; jarak bayangan pada sumbu x thd objek*/
+            box-shadow: 0px 0px 10px blue, 8px 10px 1px black, -8px -8px 10px 1px red ;
+            transition: 2s;
+        
+        }
+        .kotak:hover{
+            background-color: pink;
+            border-radius: 20px;
+            rotate: 90deg;
+            scale: -1;
+        }
+    </style>
+</head>
+<body>
+    <div class="kotak"></div>
+</body>
+</html>

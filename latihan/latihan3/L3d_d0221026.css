@@ -1,0 +1,41 @@
+
+body {
+    font-family: Georgia, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-image: linear-gradient(rgb(161, 204, 214), white 27%);
+
+}
+
+
+h1 {
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 60px;
+    color: darkblue;
+    text-align: center;
+}
+h3 {
+
+    text-align: center;
+
+}
+
+h3 a {
+    color: red;
+}
+
+h4 {
+    text-align: center;
+    font-style: italic;
+}
+
+
+.text1{
+    text-align: center;
+    color: rgba(252, 145, 45, 0.973);
+}
+
+.text2{
+    text-align: center;
+}
+

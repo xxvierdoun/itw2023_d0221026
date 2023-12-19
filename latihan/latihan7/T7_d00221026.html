@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>ur AREA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="hero">
+                <h2 class="heading">1sTCOND</h2>
+                <p class="sub-heading">1st and SECOND</p>
+            </div>
+            <div class="features feature-1">
+                <h4 class="price">IDR 1500K</h4>
+                <p class="item">Watches</p>
+            </div>
+            <div class="features feature-2">
+                <h4 class="price">IDR 200K</h4>
+                <p class="item">Bracelet</p>
+            </div>
+        </header>
+
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type = "checkbox"/>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="brand">
+                <h1>yourChoice</h1>
+            </div>
+            <ul class="menu-list">
+                <li><a href="">Home</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Gallery</a></li>
+            </ul>
+        </nav>
+        <section class="services">
+            <div class="service">
+                <div class="icon">⌚</div>
+                <h3>Watches</h3>
+                <p>A Broad Assortment of High-end, Well-made Watches. Finally In Our Shop. Get Our Product Immediately. Highly LIMITED EDITION! </p>
+            </div>
+            <div class="service">
+                <div class="icon">📿</div>
+                <h3>Bracelet</h3>
+                <p>Bracelets with special materials imported from special craftsmen have powerful and miraculous properties. OWN NOW!</p>
+            </div>
+            <div class="service">
+                <div class="icon">👕</div>
+                <h3>T-Shirt</h3>
+                <p>Clothes That Have Quality Material As Soft As Silk And As Cold As Wool. Absorbs Sweat and Provides Comfort Throughout the Day</p>
+            </div>
+            <div class="service">
+                <div class="icon">🍉</div>
+                <h3>Food</h3>
+                <p>We also prepare fruit for those of you who like fresh fruit with premium quality. Get it Now and Feel the Difference!</p>
+            </div> 
+        </section>
+        
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <img src="img/blank-colored-t-shirts.jpg" alt="">
+            <img src="img/blue-and-green-background-with-silver-jewelry.jpg" alt="">
+            <img src="img/hand-holds-a-large-bundle-of-bracelets.jpg" alt="">
+            <img src="img/top-view-fresh-foods-spices-vegetables-cooking-white-table.jpg" alt="">
+            <img src="img/bracelet mens.jpg" alt="">
+            <img src="img/makeup-and-jewelry.jpg" alt="">
+            <img src="img/shirts-on-hangers-on-display.jpg" alt="">
+            <img src="img/teal-t-shirt.jpg" alt="">
+            <img src="img/buddha-bracelet-for-men.jpg" alt="">
+            <!-- <img src="img/etalase.jpg" alt=""> -->
+            <img src="img/watches.jpg" alt="">
+        </section>
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('nav ul');
+        
+        menuToggle.addEventListener('click', function () {
+            nav.classList.toggle('slide');
+        });
+    </script>
+</body>
+</html>
